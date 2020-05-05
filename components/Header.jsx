@@ -5,7 +5,6 @@ import { faCat } from '@fortawesome/free-solid-svg-icons';
 const Header = ({ timeout, onOpenArticle }) => (
   <header id='header' style={timeout ? { display: 'none' } : {}}>
     <div className='logo'>
-      {/*<span className="icon fa-diamond"></span>*/}
       <FontAwesomeIcon icon={faCat} transform='grow-36' />
     </div>
     <div className='content'>
