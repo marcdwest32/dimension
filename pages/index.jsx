@@ -55,25 +55,25 @@ const IndexPage = ({ timeoutId }) => {
   };
 
   const handleSwitchArticle = article => {
-    setArticleTimeout(!articleTimeout);
+    setArticleTimeout(false);
 
     setTimeout(() => {
-      isTimedout(!timedout);
+      isTimedout(false);
     }, 325);
 
     setTimeout(() => {
-      setIsArticleVisible(!isArticleVisible);
+      setIsArticleVisible(false);
       setArticle('');
     }, 350);
 
     setTimeout(() => {
-      setIsArticleVisible(!isArticleVisible);
       setArticle(article);
-      isTimedout(!timedout);
+      setIsArticleVisible(true);
+      isTimedout(true);
     }, 650);
 
     setTimeout(() => {
-      setArticleTimeout(!articleTimeout);
+      setArticleTimeout(true);
     }, 700);
   };
 
