@@ -29,8 +29,8 @@ const IndexPage = ({ timeoutId }) => {
   // }
 
   const handleOpenArticle = article => {
-    setIsArticleVisible(!isArticleVisible);
     setArticle(article);
+    setIsArticleVisible(!isArticleVisible);
 
     setTimeout(() => {
       setTimeoot(!timeoot);
@@ -54,6 +54,12 @@ const IndexPage = ({ timeoutId }) => {
     }, 350);
   };
 
+  const toWork = () => {
+    setTimeout(() => {
+      setArticle('work');
+    }, 350);
+  };
+
   return (
     <div
       className={`body ${loading} ${
@@ -72,10 +78,10 @@ const IndexPage = ({ timeoutId }) => {
         <div id='wrapper'>
           <Header onOpenArticle={handleOpenArticle} timeout={timeoot} />
           <Main
-            isArticleVisible={isArticleVisible}
             timeout={timeoot}
             articleTimeout={articleTimeout}
             article={article}
+            toWork={toWork}
             onCloseArticle={handleCloseArticle}
           />
           <Footer timeout={timeoot} />
