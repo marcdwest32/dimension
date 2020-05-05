@@ -7,7 +7,13 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
-const Main = ({ timeout, article, toWork, articleTimeout, onCloseArticle }) => {
+const Main = ({
+  timeout,
+  article,
+  handleSwitchArticle,
+  articleTimeout,
+  onCloseArticle,
+}) => {
   const Close = ({ onCloseArticle }) => (
     <div
       className='close'
@@ -16,11 +22,6 @@ const Main = ({ timeout, article, toWork, articleTimeout, onCloseArticle }) => {
       }}
     ></div>
   );
-
-  // const toWork = () => {
-  //   onOpenArticle('work');
-  //   setIsArticleVisible(!isArticleVisible);
-  // };
 
   return (
     <div id='main' style={timeout ? { display: 'flex' } : { display: 'none' }}>
@@ -40,7 +41,8 @@ const Main = ({ timeout, article, toWork, articleTimeout, onCloseArticle }) => {
           aliquam facilisis ante interdum congue. Integer mollis, nisl amet
           convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna
           finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the
-          way, check out my <a onClick={() => toWork()}>awesome work</a>.
+          way, check out my{' '}
+          <a onClick={() => handleSwitchArticle('work')}>awesome work</a>.
         </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus

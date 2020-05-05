@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const IndexPage = ({ timeoutId }) => {
   const [loading, setLoading] = useState('is-loading');
-  const [timeoot, setTimeoot] = useState(false);
+  const [timedout, isTimedout] = useState(false);
   const [article, setArticle] = useState('');
   const [articleTimeout, setArticleTimeout] = useState(false);
   const [isArticleVisible, setIsArticleVisible] = useState(false);
@@ -33,7 +33,7 @@ const IndexPage = ({ timeoutId }) => {
     setIsArticleVisible(!isArticleVisible);
 
     setTimeout(() => {
-      setTimeoot(!timeoot);
+      isTimedout(!timedout);
     }, 325);
 
     setTimeout(() => {
@@ -45,7 +45,7 @@ const IndexPage = ({ timeoutId }) => {
     setArticleTimeout(!articleTimeout);
 
     setTimeout(() => {
-      setTimeoot(!timeoot);
+      isTimedout(!timedout);
     }, 325);
 
     setTimeout(() => {
@@ -54,10 +54,27 @@ const IndexPage = ({ timeoutId }) => {
     }, 350);
   };
 
-  const toWork = () => {
+  const handleSwitchArticle = article => {
+    setArticleTimeout(!articleTimeout);
+
     setTimeout(() => {
-      setArticle('work');
+      isTimedout(!timedout);
+    }, 325);
+
+    setTimeout(() => {
+      setIsArticleVisible(!isArticleVisible);
+      setArticle('');
     }, 350);
+
+    setTimeout(() => {
+      setIsArticleVisible(!isArticleVisible);
+      setArticle(article);
+      isTimedout(!timedout);
+    }, 650);
+
+    setTimeout(() => {
+      setArticleTimeout(!articleTimeout);
+    }, 700);
   };
 
   return (
@@ -76,15 +93,15 @@ const IndexPage = ({ timeoutId }) => {
         </Head>
 
         <div id='wrapper'>
-          <Header onOpenArticle={handleOpenArticle} timeout={timeoot} />
+          <Header onOpenArticle={handleOpenArticle} timeout={timedout} />
           <Main
-            timeout={timeoot}
+            timeout={timedout}
             articleTimeout={articleTimeout}
             article={article}
-            toWork={toWork}
+            handleSwitchArticle={handleSwitchArticle}
             onCloseArticle={handleCloseArticle}
           />
-          <Footer timeout={timeoot} />
+          <Footer timeout={timedout} />
         </div>
 
         <div id='bg' />
