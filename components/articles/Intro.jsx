@@ -16,24 +16,26 @@ const Intro = ({ handleSwitchArticle, onCloseArticle }) => {
       <span className='image main'>
         <img src='/images/pic01.jpg' alt='' />
       </span>
+      <h3>Hello. I am Marc D. West.</h3>
       <p>
-        Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam
-        facilisis ante interdum congue. Integer mollis, nisl amet convallis,
-        porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi
-        nec lacinia. Nam maximus erat id euismod egestas. By the way, check out
-        my <a onClick={() => handleSwitchArticle('work')}>awesome work</a>.
+        I am a software engineer/full-stack web developer from New Orleans, La.
+        I have a passion for creative problem-solving and outside-the-box
+        thinking. My many years of professional and managerial experience have
+        taught me the value of both teams working together to build something
+        that is greater than the sum of its parts and of strong leadership to
+        guide the ship and keep everyone on the right path.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus
-        rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh
-        porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc
-        ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit
-        amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla
-        in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In non lorem sit
-        amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed
-        vehicula.
+        I have experience developing applications for the web and for mobile
+        using modern, front-end frameworks such as React, Angular8, and React
+        Native, as well as legacy frameworks such as AngularJS, Bootstrap, and
+        jQuery. I also have experience designing and developing application back
+        ends including RESTful APIs with relational (SQL) and document-based
+        (noSQL) databases like mongoDB. I use the best tools available to get my
+        work done: Linux with Bash, source version control with git and GitHub,
+        and powerful IDEs like VSCode. I am always seeking new and exciting
+        challenges in both my professional and personal life. Feel free to check
+        out my <a onClick={() => handleSwitchArticle('work')}>awesome work</a>.
       </p>
       <Close onCloseArticle={onCloseArticle} />
     </>
