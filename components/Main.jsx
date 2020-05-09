@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Intro from './articles/Intro';
 import Work from './articles/Work';
-import About from './articles/About';
+import Tech from './articles/Tech';
 import Contact from './articles/Contact';
 
 const Main = ({
@@ -35,13 +35,13 @@ const Main = ({
     </article>
 
     <article
-      id='about'
-      className={`${article === 'about' ? 'active' : ''} ${
+      id='tech'
+      className={`${article === 'tech' ? 'active' : ''} ${
         articleTimeout ? 'timeout' : ''
       }`}
       style={{ display: 'none' }}
     >
-      <About onCloseArticle={onCloseArticle} />
+      <Tech onCloseArticle={onCloseArticle} />
     </article>
     <article
       id='contact'

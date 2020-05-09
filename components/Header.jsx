@@ -42,10 +42,10 @@ const Header = ({ timeout, onOpenArticle }) => (
         <li>
           <a
             onClick={() => {
-              onOpenArticle('about');
+              onOpenArticle('tech');
             }}
           >
-            About
+            Tech
           </a>
         </li>
         <li>
