@@ -11,11 +11,9 @@ const Header = ({ timeout, onOpenArticle }) => (
       <div className='inner'>
         <h1>Marc D. West</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href='https://html5up.net'>HTML5 UP</a> and released
+          Fullstack developer
           <br />
-          for free under the{' '}
-          <a href='https://html5up.net/license'>Creative Commons</a> license.
+          software engineer
         </p>
       </div>
     </div>
