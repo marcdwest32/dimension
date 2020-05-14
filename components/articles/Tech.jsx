@@ -13,9 +13,7 @@ const Tech = ({ onCloseArticle }) => {
   return (
     <>
       <h2 className='major'>Tech</h2>
-      <span className='image main'>
-        <img src=' /images/pic03.jpg' alt='' />
-      </span>
+
       <div className='row'>
         <div className='3u 12u$(small)'>
           <img src='/images/javascript.png' className='image fit'></img>
