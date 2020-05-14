@@ -58,10 +58,6 @@ const Tech = ({ onCloseArticle }) => {
           <h3 className='align-center'>Angular8</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/angularjs.png' className='image fit'></img>
-          <h3 className='align-center'>AngularJS</h3>
-        </div>
-        <div className='3u 12u$(small)'>
           <img src='/images/auth0.png' className='image fit'></img>
           <h3 className='align-center'>Auth0</h3>
         </div>
@@ -76,6 +72,10 @@ const Tech = ({ onCloseArticle }) => {
         <div className='3u 12u$(small)'>
           <img src='/images/linux.png' className='image fit'></img>
           <h3 className='align-center'>Linux</h3>
+        </div>
+        <div className='3u 12u$(small)'>
+          <img src='/images/angularjs.png' className='image fit'></img>
+          <h3 className='align-center'>AngularJS</h3>
         </div>
         <div className='3u 12u$(small)'>
           <img src='/images/reactnative.png' className='image fit'></img>
