@@ -85,7 +85,7 @@ const IndexPage = ({ timeoutId }) => {
     >
       <div>
         <Head>
-          <title>Next.js Starter</title>
+          <title>Marc D. West</title>
           <link
             href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i'
             rel='stylesheet'
