@@ -11,8 +11,7 @@ const Header = ({ timeout, onOpenArticle }) => (
       <div className='inner'>
         <h1>Marc D. West</h1>
         <p>
-          Fullstack developer
-          <br />
+          Fullstack developer <br />
           software engineer
         </p>
       </div>
