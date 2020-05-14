@@ -1,10 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faTwitter,
   faGithub,
-  faFacebook,
   faInstagram,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = ({ onCloseArticle }) => {
@@ -20,7 +19,7 @@ const Contact = ({ onCloseArticle }) => {
   return (
     <>
       <h2 className='major'>Contact</h2>
-      <form method='post' action='#'>
+      <form action='https://formspree.io/xnqgnrdz' method='POST'>
         <div className='field half first'>
           <label htmlFor='name'>Name</label>
           <input type='text' name='name' id='name' />
@@ -44,23 +43,18 @@ const Contact = ({ onCloseArticle }) => {
       </form>
       <ul className='icons'>
         <li>
-          <a href='#'>
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-        </li>
-        <li>
-          <a href='#'>
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
-        </li>
-        <li>
-          <a href='#'>
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-        </li>
-        <li>
-          <a href='#'>
+          <a href='https://github.com/marcdwest32' target='_blank'>
             <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a href='https://www.linkedin.com/in/marcdwest/' target='_blank'>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/swarms_indecent/' target='_blank'>
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
       </ul>
