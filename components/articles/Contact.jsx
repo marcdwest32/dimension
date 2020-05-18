@@ -29,6 +29,10 @@ const Contact = ({ onCloseArticle }) => {
           <input type='text' name='email' id='email' />
         </div>
         <div className='field'>
+          <label htmlFor='company'>Company</label>
+          <input type='text' name='company' id='company' />
+        </div>
+        <div className='field'>
           <label htmlFor='message'>Message</label>
           <textarea name='message' id='message' rows='4'></textarea>
         </div>
