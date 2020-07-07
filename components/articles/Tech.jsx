@@ -16,71 +16,71 @@ const Tech = ({ onCloseArticle }) => {
 
       <div className='row'>
         <div className='3u 12u$(small)'>
-          <img src='/images/javascript.png' className='image fit'></img>
+          <img src='/images/tech/javascript.png' className='image fit'></img>
           <h3 className='align-center'>JavaScript</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/react.png' className='image fit'></img>
+          <img src='/images/tech/react.png' className='image fit'></img>
           <h3 className='align-center'>React</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/HTML5.png' className='image fit'></img>
+          <img src='/images/tech/HTML5.png' className='image fit'></img>
           <h3 className='align-center'>HTML5</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/CSS3.png' className='image fit'></img>
+          <img src='/images/tech/CSS3.png' className='image fit'></img>
           <h3 className='align-center'>CSS3</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/node.png' className='image fit'></img>
+          <img src='/images/tech/node.png' className='image fit'></img>
           <h3 className='align-center'>Node</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/express.png' className='image fit'></img>
+          <img src='/images/tech/express.png' className='image fit'></img>
           <h3 className='align-center'>Express</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/mysql.png' className='image fit'></img>
+          <img src='/images/tech/mysql.png' className='image fit'></img>
           <h3 className='align-center'>MySQL</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/mongodb.png' className='image fit'></img>
+          <img src='/images/tech/mongodb.png' className='image fit'></img>
           <h3 className='align-center'>MongoDB</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/next.png' className='image fit'></img>
+          <img src='/images/tech/next.png' className='image fit'></img>
           <h3 className='align-center'>NextJS</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/angular.png' className='image fit'></img>
+          <img src='/images/tech/angular.png' className='image fit'></img>
           <h3 className='align-center'>Angular8</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/auth0.png' className='image fit'></img>
+          <img src='/images/tech/auth0.png' className='image fit'></img>
           <h3 className='align-center'>Auth0</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/github.png' className='image fit'></img>
+          <img src='/images/tech/github.png' className='image fit'></img>
           <h3 className='align-center'>GitHub</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/expo.png' className='image fit'></img>
+          <img src='/images/tech/expo.png' className='image fit'></img>
           <h3 className='align-center'>Expo</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/linux.png' className='image fit'></img>
+          <img src='/images/tech/linux.png' className='image fit'></img>
           <h3 className='align-center'>Linux</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/angularjs.png' className='image fit'></img>
+          <img src='/images/tech/angularjs.png' className='image fit'></img>
           <h3 className='align-center'>AngularJS</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/reactnative.png' className='image fit'></img>
+          <img src='/images/tech/reactnative.png' className='image fit'></img>
           <h3 className='align-center'>React Native</h3>
         </div>
         <div className='3u 12u$(small)'>
-          <img src='/images/vscode.png' className='image fit'></img>
+          <img src='/images/tech/vscode.png' className='image fit'></img>
           <h3 className='align-center'>VSCode</h3>
         </div>
       </div>
