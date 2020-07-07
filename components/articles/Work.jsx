@@ -32,6 +32,43 @@ const Work = ({ onCloseArticle }) => {
           Used Expo SDK to create Android, iOS, and web app from a single
           codebase
         </li>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat1.jpg' className='image fit'></img>
+          </div>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat2.png' className='image fit'></img>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat3.png' className='image fit'></img>
+          </div>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat4.png' className='image fit'></img>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat5.png' className='image fit'></img>
+          </div>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat6.png' className='image fit'></img>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat7.jpg' className='image fit'></img>
+          </div>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat8.png' className='image fit'></img>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/mapchat9.png' className='image fit'></img>
+          </div>
+        </div>
       </ul>
       <hr size={5} />
       <h3>Headwaters</h3>
