@@ -86,6 +86,17 @@ const Work = ({ onCloseArticle }) => {
           Employed AWS EC2 instance for deployment, utilizing PM2 and NGINX to
           facilitate persistent server and optimize memory use
         </li>
+        <div className='row'>
+          <div className='12u 12u$(large)'>
+            <img src='/images/work/hwpillbox.png' className='image fit'></img>
+          </div>
+          <div className='12u 12u$(medium)'>
+            <img
+              src='/images/work/hwmedtracker.png'
+              className='image fit'
+            ></img>
+          </div>
+        </div>
       </ul>
       <hr size={5} />
       <h3>Where Should We Eat?</h3>
