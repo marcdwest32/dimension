@@ -56,11 +56,6 @@ const Contact = ({ onCloseArticle }) => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
-        <li>
-          <a href='https://www.instagram.com/swarms_indecent/' target='_blank'>
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-        </li>
       </ul>
       <Close onCloseArticle={onCloseArticle} />
     </>
