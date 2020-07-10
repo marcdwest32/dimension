@@ -88,13 +88,28 @@ const Work = ({ onCloseArticle }) => {
         </li>
         <div className='row'>
           <div className='12u 12u$(large)'>
+            <img src='/images/work/hwcalendar1.png' className='image fit'></img>
+          </div>
+          <div className='12u 12u$(large)'>
+            <img src='/images/work/hwcalendar2.png' className='image fit'></img>
+          </div>
+          <div className='12u 12u$(large)'>
             <img src='/images/work/hwpillbox.png' className='image fit'></img>
           </div>
-          <div className='12u 12u$(medium)'>
+          <div className='12u 12u$(large)'>
             <img
               src='/images/work/hwmedtracker.png'
               className='image fit'
             ></img>
+          </div>
+          <div className='12u 12u$(large)'>
+            <img src='/images/work/hwjournal1.png' className='image fit'></img>
+          </div>
+          <div className='12u 12u$(large)'>
+            <img src='/images/work/hwjournal2.png' className='image fit'></img>
+          </div>
+          <div className='12u 12u$(large)'>
+            <img src='/images/work/hwjournal3.png' className='image fit'></img>
           </div>
         </div>
       </ul>
