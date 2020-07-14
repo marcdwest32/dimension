@@ -16,7 +16,7 @@ const Intro = ({ handleSwitchArticle, onCloseArticle }) => {
       <span className='image main'>
         <img src='/images/pic01.jpg' alt='' />
       </span>
-      <h3>Hello. I am Marc D. West.</h3>
+      <h3>Hello! I'm Marc</h3>
       <p>
         I am a software engineer/full-stack web developer from New Orleans, La.
         I have a passion for creative problem-solving and outside-the-box
