@@ -11,22 +11,11 @@ const IndexPage = ({ timeoutId }) => {
   const [articleTimeout, setArticleTimeout] = useState(false);
   const [isArticleVisible, setIsArticleVisible] = useState(false);
 
-  // componentDidMount() {
-  //   this.timeoutId = setTimeout(() => {
-  //     this.setState({ loading: '' });
-  //   }, 100);
-  // }
   useEffect(() => {
     timeoutId = setTimeout(() => {
       setLoading('');
     }, 100);
   });
-
-  // componentWillUnmount() {
-  //   if (this.timeoutId) {
-  //     clearTimeout(this.timeoutId);
-  //   }
-  // }
 
   const handleOpenArticle = article => {
     setArticle(article);

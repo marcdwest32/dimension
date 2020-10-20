@@ -1,24 +1,24 @@
-import React from 'react';
+import React from 'react'
 
 const Intro = ({ handleSwitchArticle, onCloseArticle }) => {
   const Close = ({ onCloseArticle }) => (
     <div
       className='close'
       onClick={() => {
-        onCloseArticle();
+        onCloseArticle()
       }}
     ></div>
-  );
+  )
 
   return (
     <>
       <h2 className='major'>Intro</h2>
       <span className='image main'>
-        <img src='/images/pic01.jpg' alt='' />
+        <img src='/images/intro.png' alt='' />
       </span>
-      <h3>Hello! I'm Marc</h3>
+      <h3>Hello!</h3>
       <p>
-        I am a software engineer/full-stack web developer from New Orleans, La.
+        I am a software engineer/full-stack web developer from New Orleans, LA.
         I have a passion for creative problem-solving and outside-the-box
         thinking. My many years of professional and managerial experience have
         taught me the value of both teams working together to build something
@@ -39,7 +39,7 @@ const Intro = ({ handleSwitchArticle, onCloseArticle }) => {
       </p>
       <Close onCloseArticle={onCloseArticle} />
     </>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro
