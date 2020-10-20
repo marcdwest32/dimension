@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 const Tech = ({ onCloseArticle }) => {
   const Close = ({ onCloseArticle }) => (
     <div
       className='close'
       onClick={() => {
-        onCloseArticle();
+        onCloseArticle()
       }}
     ></div>
-  );
+  )
 
   return (
     <>
@@ -56,6 +56,10 @@ const Tech = ({ onCloseArticle }) => {
           <h3 className='align-center'>Angular8</h3>
         </div>
         <div className='3u 12u$(small)'>
+          <img src='/images/tech/php.png' className='image fit'></img>
+          <h3 className='align-center'>PHP</h3>
+        </div>
+        <div className='3u 12u$(small)'>
           <img src='/images/tech/auth0.png' className='image fit'></img>
           <h3 className='align-center'>Auth0</h3>
         </div>
@@ -86,7 +90,7 @@ const Tech = ({ onCloseArticle }) => {
       </div>
       <Close onCloseArticle={onCloseArticle} />
     </>
-  );
-};
+  )
+}
 
-export default Tech;
+export default Tech

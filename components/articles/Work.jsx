@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 const Work = ({ onCloseArticle }) => {
   const Close = ({ onCloseArticle }) => (
     <div
       className='close'
       onClick={() => {
-        onCloseArticle();
+        onCloseArticle()
       }}
     ></div>
-  );
+  )
 
   return (
     <>
@@ -17,7 +17,7 @@ const Work = ({ onCloseArticle }) => {
       <h3>MapChat</h3>
       <h4>Mobile Map-Based Messaging App</h4>
       <span className='image main'>
-        <img src=' /images/pic02.jpg' alt='' />
+        <img src=' /images/work/mapchat-header.png' alt='' />
       </span>
       <ul>
         <li>
@@ -74,7 +74,7 @@ const Work = ({ onCloseArticle }) => {
       <h3>Headwaters</h3>
       <h4>Self-Care and Wellness Management App</h4>
       <span className='image main'>
-        <img src=' /images/pic02.jpg' alt='' />
+        <img src=' /images/work/hw-header.png' alt='' />
       </span>
       <ul>
         <li>Utilized Auth0 to manage third-party authentication via Google</li>
@@ -133,7 +133,7 @@ const Work = ({ onCloseArticle }) => {
       </ul>
       <Close onCloseArticle={onCloseArticle} />
     </>
-  );
-};
+  )
+}
 
-export default Work;
+export default Work
