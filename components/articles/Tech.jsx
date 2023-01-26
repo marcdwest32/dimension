@@ -87,6 +87,22 @@ const Tech = ({ onCloseArticle }) => {
           <img src='/images/tech/vscode.png' className='image fit'></img>
           <h3 className='align-center'>VSCode</h3>
         </div>
+        <div className='3u 12u$(small)'>
+          <img src='/images/tech/python.png' className='image fit'></img>
+          <h3 className='align-center'>Python</h3>
+        </div>
+        <div className='3u 12u$(small)'>
+          <img src='/images/tech/playwright.png' className='image fit'></img>
+          <h3 className='align-center'>Playwright</h3>
+        </div>
+        <div className='3u 12u$(small)'>
+          <img src='/images/tech/vue.png' className='image fit'></img>
+          <h3 className='align-center'>Vue</h3>
+        </div>
+        <div className='3u 12u$(small)'>
+          <img src='/images/tech/puppeteer.png' className='image fit'></img>
+          <h3 className='align-center'>Puppeteer</h3>
+        </div>
       </div>
       <Close onCloseArticle={onCloseArticle} />
     </>
