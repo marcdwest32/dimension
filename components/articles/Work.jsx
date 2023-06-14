@@ -14,6 +14,60 @@ const Work = ({ onCloseArticle }) => {
     <>
       <h2 className='major'>Projects</h2>
 
+      <h3>
+        <a href='https://coffee-connoisseur-rust.vercel.app/' target='_blank'>
+          Coffee Connoisseur
+        </a>
+      </h3>
+      <h4>
+        <a
+          href='https://github.com/marcdwest32/coffee-connoisseur'
+          target='_blank'
+        >
+          marcdwest32/coffee-connoisseur
+        </a>
+      </h4>
+      <h4>
+        Coffee Connoisseur is a Next.js web application that provides a
+        user-friendly interface to explore coffee stores, find nearby locations,
+        and view detailed information about each store. It incorporates state
+        management, data fetching, responsive design, and dynamic routing to
+        deliver a smooth and engaging user experience.
+      </h4>
+      <span className='image main'>
+        <img src=' /images/work/cc-header.png' alt='' />
+      </span>
+      <ul>
+        <li>Technology Stack: Next.js (React framework)</li>
+        <li>
+          API Integration: Utilizes the Yelp API to retrieve data about coffee
+          stores
+        </li>
+        <li>Pages and Components: Multiple pages and reusable components</li>
+        <li>Data Fetching: 'getStaticProps' for fetching coffee store data</li>
+        <li>
+          State Management: Custom state management with 'useContext' and
+          'useReducer'
+        </li>
+        <li>
+          Location Tracking: Feature to find coffee stores near the user's
+          location
+        </li>
+        <li>
+          Dynamic Routing: Supports dynamic routing for coffee store pages
+        </li>
+        <li>Responsive Design: CSS media queries for responsive layouts</li>
+        <li>Styling: CSS modules for component-specific styling</li>
+        <div className='row'>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/cc1.png' className='image fit'></img>
+          </div>
+          <div className='6u 12u$(medium)'>
+            <img src='/images/work/cc2.png' className='image fit'></img>
+          </div>
+        </div>
+      </ul>
+      <hr size={5} />
       <h3>MapChat</h3>
       <h4>Mobile Map-Based Messaging App</h4>
       <span className='image main'>
